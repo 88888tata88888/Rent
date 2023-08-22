@@ -1,0 +1,331 @@
+body {
+    width: 100%;
+    margin: auto;
+}
+.link {
+	text-decoration: none;
+}
+.list {
+	list-style: none;
+}
+
+/*HEADER*/
+.menu {
+    display: flex;
+    margin-left: 150px;
+    position: absolute;
+}
+.logo{
+    margin-top: 10px;
+}
+.menu-ul{
+    display: flex;
+   padding-left: 92px;
+   margin-left: 195px;
+   margin-top: 42px;
+}
+.menu-p{
+    font-size: 20px;
+    color: #1D1D1B;
+    margin-right: 38px;
+}
+.menu-title {
+ position: absolute;
+ margin-top: 250px;
+ margin-left: 150px;
+}
+.menu-caption {
+    font-size: 60px;
+    color: #ffffff;
+}
+.menu-caption_p {
+    color: #ffffff;
+    margin-top: -30px;
+}
+.button-title {
+    margin-top: 20px;
+    width: 254px;
+    height: 66px;
+    background: #27AE60;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+}
+.button-title_2 {
+    font-size: 22px;
+    color: #ffffff;
+}
+.scale_2 {
+    transition: 1s; /* Время эффекта */
+}
+.scale_2:hover {
+    transform: scale(1.1); /* Увеличиваем масштаб */
+}
+.link-center {
+    position: relative;
+  }
+  .link-center::after {
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 1px;
+    background: #000;
+  }
+  .link-center::after {
+    width: 0;
+    transition: 0.3s;
+  }
+  .link-center:hover:after {
+    width: 100%;
+  }
+/*Почему выбирают нас*/
+.time {
+display: flex;
+align-items: center;
+width: 273px;
+border: solid 1px ;
+width: 200px;
+height: 80px;
+border-radius: 8px;
+margin-left: 30px;
+align-items: center;
+justify-content: center;
+}
+.time-img {
+    padding-right: 10px;
+}
+.tex2{
+    font-size: 42px;
+    color: #1D1D1B;
+    margin-top: 82px;
+    margin-left: 150px;
+    
+}
+.services {
+display: flex;
+margin-left: 80px;
+margin-top: 48px;
+}
+.tex-mark {
+    color: #27AE60;
+    background: none;
+}
+
+/*Основные материалы*/
+.material {
+    display: flex;
+    margin-left: 70px;
+    margin-top: 50px;
+}
+.material-img {
+    margin-left: 30px;
+}
+.material-p {
+    font-size: 40px;
+    position: absolute;
+    color: #ffffff;
+   margin-left: 30px;
+   margin-top: 320px;
+}
+.material-p_2 {
+    font-size: 40px;
+    position: absolute;
+    color: #ffffff;
+   margin-left: 30px;
+   margin-top: 273px;  
+}
+.scale {
+    transition: 1s; /* Время эффекта */
+    cursor: pointer;
+}
+.scale:hover {
+    transform: scale(1.2); /* Увеличиваем масштаб */
+   }
+
+   /*TRANSPORT*/
+   .transport-div {
+    display: flex;
+    margin-top: 50px;
+   }
+   .transport-blok {
+   margin-left: 150px;
+    margin-top: 15px;
+   }
+   .transport {
+    width: 400px;
+    height: 246px;
+    border-radius: 24px;
+    background: #F8F8F8;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+   }
+   .transport-blok_2 {
+    margin-left: 160px;
+    margin-top: 20px;
+   }
+   .transport-li {
+    margin-right: 40px;
+    margin-top: -35px;
+  
+   }
+   .transport-p {
+    font-size: 88px;
+    color: #1D1D1B;
+   }
+   .transport-plus {
+    color: #27AE60;
+    font-size: 40px;
+    margin-top: -185px;
+    margin-left: 120px;
+   }
+   .transport-tehno {
+    color: #67675F;
+    font-size: 24px;
+    margin-top: 49px;
+   }
+   .transport-15 {
+     font-size: 88px;
+     color: #1D1D1B;
+   }
+   .transport-karera {
+    color: #67675F;
+    font-size: 24px;
+    margin-top: -90px;
+   }
+   .transport-h2 {
+    font-size: 42px;
+    color: #1D1D1B;
+   }
+   .transport-tex {
+    color: #1D1D1B;
+    font-size: 18px;
+   }
+
+   /*questions*/
+   .questions-div {
+    display: flex;
+    background: #dddddd4c;
+    width: 100%;
+    height: 500px;
+    margin-top: 80px;
+   }
+   .questions-title {
+    font-size: 42px;
+    color: #1E1E1C;
+   }
+   .questions {
+  margin-top: 100px;
+  margin-left: 150px;
+   }
+   .questions-h3 {
+    color: #27AE60;
+    font-size: 28px;
+   }
+   .questions-p {
+    color: #1E1E1C;
+    font-size: 22px;
+   }
+   .form {
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 12px;
+  }
+  .input {
+    display: block;
+    width: 390px;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border: 1px solid #DDDDDD;
+    font-size: 18px;
+    border-radius: 6px;
+    height: 30px;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  .btn {
+    display: block;
+    width: 254px;
+    height: 66px;
+    padding: 8px 10px;
+   border-radius: 8px;
+   border: none;
+    background-color: #27AE60;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 22px;
+    color: #fff;
+    margin-top: 20px;
+  }
+  .content {
+    width: 390px;
+    border-radius: 6px;
+    border: 1px solid #DDDDDD;
+    height: 100px;
+    font-size: 18px;
+  }
+  .form-div {
+   margin-left: 844px;
+    position: absolute;
+    margin-top: 55px;
+  }
+  .questions-img {
+   margin-left: 490px;
+  }
+
+/*FOOTER*/
+  .footer {
+    height: 128px;
+    background: #424141;
+    margin-top: -15px;
+  }
+  .footer-title {
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    padding-top: 22px;
+  }
+  .footer-age {
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 50px;
+  }
+  .footer-tex {
+    margin-left: 65px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .footer-yslugi {
+    margin-left: 50px;
+    font-size: 18px;
+  }
+  .footer-link {
+    color: #FFFFFF;
+  }
+.dooter-vk {
+margin-left: 87px;
+}
+.footer-facebook {
+margin-left: 25px;
+}
+.footer-watsap {
+margin-left: 25px;
+color: #fff;
+}
+.footer-tel {
+    margin-left: 40px;
+    color: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    padding-bottom: 10px;
+   padding-top: 10px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+.footer-tele {
+    color: #FFFFFF;
+    font-size: 18px;
+}
